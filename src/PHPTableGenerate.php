@@ -63,7 +63,6 @@ namespace Dejurin;
  * @author		YURII DEREVYCH
  *
  * @see		https://github.com/dejurin/php-table-generate
- * 
  * @since Version 1.0.0
  */
 class PHPTableGenerate
@@ -358,7 +357,6 @@ class PHPTableGenerate
                 $out .= $this->template['row_'.$name.'start'].$this->newline;
 
                 foreach ($row as $cell) {
-					
                     $temp = $this->template['cell_'.$name.'start'];
 
                     foreach ($cell as $key => $val) {
@@ -367,9 +365,9 @@ class PHPTableGenerate
                         }
                     }
 
-					if (isset($cell['td'])) {
-						$temp = str_replace('<td ', '<th ', $temp);
-					}
+                    if (isset($cell['td'])) {
+                        $temp = str_replace('<td ', '<th ', $temp);
+                    }
 
                     $cell = isset($cell['data']) ? $cell['data'] : '';
                     $out .= $temp;

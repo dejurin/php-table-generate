@@ -12,9 +12,9 @@ $data = [
             'data' => 'Euro',
             'td' => 'th',
             'scope' => 'row',
-            'class' => 'style'
-        ], 
-        '#000000', 
+            'class' => 'style',
+        ],
+        '#000000',
         100,
     ],
 ];
