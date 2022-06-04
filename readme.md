@@ -1,10 +1,6 @@
 # PHP Table Generate
 Packagist: https://packagist.org/packages/dejurin/php-table-generate
 
-![version](https://img.shields.io/github/release/dejurin/php-table-generate.svg?style=flat)
-[![downloads](https://img.shields.io/packagist/dt/dejurin/php-table-generate.svg?style=flat)](https://packagist.org/packages/dejurin/php-table-generate)
-[![travis](https://img.shields.io/travis/dejurin/php-table-generate.svg?style=flat)](https://travis-ci.org/dejurin/php-table-generate)
-
 Simple PHP HTML table generator by CodeIgniter.
 
 ## Installation
