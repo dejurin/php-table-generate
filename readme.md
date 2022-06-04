@@ -65,9 +65,4 @@ This source code is distributed under [MIT](https://choosealicense.com/licenses/
 ___
 
 ## Sponsors ##
-### https://currencyrate.today ###
-### https://moneyconvert.net/ ### 
 ### https://currencyconvert.online/ ###
-### https://co-w.io/ ###
-### https://co-in.io/ ###
-### https://fx-w.io/ ###
