@@ -60,7 +60,7 @@ namespace Dejurin;
  *
  * @category	HTML Tables
  *
- * @author		YURII DEREVYCH
+ * @author		YURII DARWIN
  *
  * @see		https://github.com/dejurin/php-table-generate
  * @since Version 1.0.0
