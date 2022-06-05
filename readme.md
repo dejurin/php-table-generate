@@ -49,7 +49,7 @@ echo $table->generate($data);
 </thead>
 <tbody>
 <tr>
-<th class="style" scope="row">Dollar</th><td>100</td><td>#000000</td></tr>
+<th class="style" scope="row">Dollar</th><td>100</td><td>#85bb65</td></tr>
 </tbody>
 </table>
 */
