@@ -24,18 +24,18 @@ Or edit your project's `composer.json` to require `dejurin/php-table-generate` a
 ```php
 $table = new Dejurin\PHPTableGenerate();
 
-$table->set_heading('Name', 'Color', 'Size');
+$table->set_heading('Currency', 'Amount', 'Color');
 
 $data = [
     [
         [
-            'data' => 'Euro',
+            'data' => 'Dollar',
             'td' => 'th',
             'scope' => 'row',
             'class' => 'style'
-        ], 
-        '#000000', 
+        ],  
         100,
+        '#85bb65',
     ],
 ];
 
@@ -45,11 +45,11 @@ echo $table->generate($data);
 <table border="0" cellpadding="4" cellspacing="0">
 <thead>
 <tr>
-<th>Name</th><th>Color</th><th>Size</th></tr>
+<th>Currency</th><th>Amount</th><th>Color</th></tr>
 </thead>
 <tbody>
 <tr>
-<th class="style" scope="row">Euro</th><td>#000000</td><td>100</td></tr>
+<th class="style" scope="row">Dollar</th><td>100</td><td>#000000</td></tr>
 </tbody>
 </table>
 */
