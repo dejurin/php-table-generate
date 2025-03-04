@@ -124,6 +124,13 @@ class PHPTableGenerate
     public $function = null;
 
     /**
+     * Template.
+     *
+     * @var array
+     */
+    protected $temp = [];1
+
+    /**
      * Set the template.
      *
      * @param array $template
