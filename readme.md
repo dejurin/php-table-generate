@@ -1,4 +1,5 @@
 # PHP Table Generate
+
 Packagist: https://packagist.org/packages/dejurin/php-table-generate
 
 Simple PHP HTML table generator by CodeIgniter.
@@ -7,7 +8,7 @@ Simple PHP HTML table generator by CodeIgniter.
 
 Install this package via [Composer](https://getcomposer.org/).
 
-```
+```ini
 composer require dejurin/php-table-generate
 ```
 
@@ -15,7 +16,7 @@ Or edit your project's `composer.json` to require `dejurin/php-table-generate` a
 
 ```json
 "require": {
-    "dejurin/php-table-generate": "^1.0.0"
+    "dejurin/php-table-generate": "^1.0.1"
 }
 ```
 
@@ -56,9 +57,12 @@ echo $table->generate($data);
 
 ```
 
-### License ###
-This source code is distributed under [MIT](https://choosealicense.com/licenses/mit/) license.
-___
+### License
 
-## Sponsors ##
-### https://currencyconvert.online/ ###
+This source code is distributed under [MIT](https://choosealicense.com/licenses/mit/) license.
+
+---
+
+## Sponsors
+
+### https://currencyconvert.online/
