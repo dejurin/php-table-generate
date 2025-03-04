@@ -1,7 +1,7 @@
 {
     "name": "dejurin/php-table-generate",
     "description": "Simple PHP HTML table generator by CodeIgniter.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "codeigniter",
         "table",

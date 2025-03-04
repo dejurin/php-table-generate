@@ -128,7 +128,7 @@ class PHPTableGenerate
      *
      * @var array
      */
-    protected $temp = [];1
+    protected $temp = [];
 
     /**
      * Set the template.
